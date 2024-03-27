@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Dialog, DialogBody } from "@material-tailwind/react";
-import bagpack from "../assests/images/wallet_small_box.svg";
+// import bagpack from "../assests/images/wallet_small_box.svg";
 
 function Modul() {
   const [open, setOpen] = React.useState(false);
@@ -92,7 +92,7 @@ function Modul() {
                   </div>
                   {/* box_3 */}
                   <div className=" cursor-pointer max-w-[90px] w-full h-[88px] rounded-[16px] bg-[#28303E]  flex   items-center justify-center ">
-                    <img src={bagpack} alt="bagpack" />
+                    {/* <img src={bagpack} alt="bagpack" /> */}
                   </div>
                 </div>
                 {/* more_wallet */}
